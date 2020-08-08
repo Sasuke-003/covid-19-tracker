@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Line } from "react-chartjs-2";
 import { req } from "../../url.js";
 import numeral from "numeral";
+import "./LineGraph.styles.css";
 
 const options = {
   legend: {
